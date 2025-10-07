@@ -72,3 +72,78 @@ footer {
     padding: 15px;
     font-size: 0.9em;
 }
+
+.pagina-principal{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    background-color: #fdf6f0;
+}
+
+.principal{
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#principal {
+  padding: 60px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Fredoka', sans-serif;
+}
+
+#principal section {
+  background-color: #fff7f9;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#principal h2 {
+  color: #ff6b81;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-size: 2rem;
+  color: #ff85a1;
+  margin-right: 10px;
+}
+
+#principal p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}   
+
+/*barra de navegação*/
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: #555;
+    font-weight: 600;
+    transition: 0.3s;
+    background: no-repeat left center;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+}
