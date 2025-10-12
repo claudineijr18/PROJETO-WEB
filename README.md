@@ -118,7 +118,7 @@ O **VidaKids** reforça a importância da **informação, prevenção e amor no 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SeuUsuario/VidaKids.git
+   git clone https://github.com/claudineijr18/PROJETO-WEB.git
 2. **Abra o arquivo principal**
    ```bash
    principal.html
