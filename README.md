@@ -22,22 +22,30 @@ Inspirado na **ODS 3 - Saúde e Bem-Estar** da ONU, o projeto aborda **vacinaç�
 
 ## 🧩 Estrutura do Projeto
 
-📁 VidaKids/
-├── 📄 principal.html # Página inicial - Introdução à ODS 3
-├── 📄 vacinas.html # Informações sobre vacinação infantil
-├── 📄 primeiros-socorros.html # Dicas e vídeos de primeiros socorros
-├── 📄 dicas.html # Dicas de bem-estar e rotina saudável
+```bash
+VidaKids/
+│
+├── 📄 login.html                # Página de login do usuário
+├── 📄 cadastro.html             # Página de cadastro do usuário
+├── 📄 principal.html            # Página inicial - Introdução à ODS 3
+├── 📄 vacinas.html              # Informações sobre vacinação infantil
+├── 📄 primeiros-socorros.html   # Dicas e vídeos de primeiros socorros
+├── 📄 dicas.html                # Dicas de bem-estar e rotina saudável
+│
 ├── 📁 css/
-│ └── 📄 style.css # Arquivo de estilo principal
-├── 📁 IMAGENS/
-│ ├── happy-family.jpg
-│ ├── family.jpg
-│ ├── vaccine.jpg
-│ ├── nurse.jpg
-│ ├── vacine-baby.jpg
-│ ├── baby-care.jpg
-│ └── (...)
-└── 📄 README.md # Documentação do projeto
+│   └── 📄 style.css             # Arquivo de estilo principal
+│
+├── 📁 imagens/
+│   ├── happy-family.jpg
+│   ├── family.jpg
+│   ├── vaccine.jpg
+│   ├── nurse.jpg
+│   ├── vacine-baby.jpg
+│   ├── baby-care.jpg
+│   └── ...
+│
+└── 📄 README.md                 # Documentação do projeto
+
 
 
 ---
@@ -55,6 +63,14 @@ Inspirado na **ODS 3 - Saúde e Bem-Estar** da ONU, o projeto aborda **vacinaç�
 ---
 
 ## 🌈 Páginas do Projeto
+
+### 🔐 **Login**
+Página simples e intuitiva para **acesso ao sistema**, permitindo que o usuário entre com suas credenciais.  
+Inclui validação visual e design amigável com campos arredondados e botões personalizados.
+
+### 📝 **Cadastro**
+Permite que novos usuários **criem uma conta** preenchendo nome, e-mail e senha.  
+A página segue o mesmo estilo da de login, garantindo **coerência visual e usabilidade**.
 
 ### 🏠 **Home - ODS 3**
 Apresenta a **ODS 3** e a meta **3.2**, destacando a importância da saúde e do bem-estar infantil, com imagens ilustrativas e cores suaves.
