@@ -20,30 +20,31 @@ Inspirado na **ODS 3 - Saúde e Bem-Estar** da ONU, o projeto aborda **vacinaç�
 
 ---
 
+```markdown
 ## 🧩 Estrutura do Projeto
 
-VidaKids/
+🍼 VidaKids/
 │
-├── 📄 login.html                # Página de login do usuário
-├── 📄 cadastro.html             # Página de cadastro do usuário
-├── 📄 principal.html            # Página inicial - Introdução à ODS 3
-├── 📄 vacinas.html              # Informações sobre vacinação infantil
-├── 📄 primeiros-socorros.html   # Dicas e vídeos de primeiros socorros
-├── 📄 dicas.html                # Dicas de bem-estar e rotina saudável
+├── 🔐 login.html → Página de Login
+├── 📝 cadastro.html → Página de Cadastro
+├── 🏠 principal.html → Página Inicial (ODS 3)
+├── 💉 vacinas.html → Página sobre Vacinação Infantil
+├── 🚑 primeiros-socorros.html → Página de Primeiros Socorros
+├── 💡 dicas.html → Página de Dicas e Cuidados
 │
-├── 📁 css/
-│   └── 📄 style.css             # Arquivo de estilo principal
+├── 🎨 css/
+│ └── 🎀 style.css → Arquivo de Estilo Principal
 │
-├── 📁 imagens/
-│   ├── happy-family.jpg
-│   ├── family.jpg
-│   ├── vaccine.jpg
-│   ├── nurse.jpg
-│   ├── vacine-baby.jpg
-│   ├── baby-care.jpg
-│   └── ...
+├── 🖼️ imagens/
+│ ├── happy-family.jpg
+│ ├── family.jpg
+│ ├── vaccine.jpg
+│ ├── nurse.jpg
+│ ├── vacine-baby.jpg
+│ ├── baby-care.jpg
+│ └── ...
 │
-└── 📄 README.md                 # Documentação do projeto
+└── 📘 README.md → Documentação do Projeto
 
 
 
