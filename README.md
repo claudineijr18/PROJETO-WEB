@@ -22,7 +22,6 @@ Inspirado na **ODS 3 - Saúde e Bem-Estar** da ONU, o projeto aborda **vacinaç�
 
 ## 🧩 Estrutura do Projeto
 
-```bash
 VidaKids/
 │
 ├── 📄 login.html                # Página de login do usuário
