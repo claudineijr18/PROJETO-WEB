@@ -298,4 +298,143 @@ WARNINGS
     line-height: 1.5;
 }
 
+/*===========
+css do projeto 2
+=============
+*/
 
+.admin-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff7f9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Título */
+.admin-container h2 {
+    text-align: center;
+    color: #ff6b81;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+/* Formulário */
+.admin-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.admin-form input {
+    flex: 1;
+    min-width: 180px;
+    padding: 12px;
+    border: 2px solid #ffc8d2;
+    border-radius: 12px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s;
+}
+
+.admin-form input:focus {
+    border-color: #ff6b81;
+    box-shadow: 0 0 6px rgba(255, 107, 129, 0.4);
+}
+
+/* Botões */
+.admin-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.admin-buttons button {
+    background-color: #ff6b81;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.admin-buttons button:hover {
+    background-color: #ff4d6d;
+}
+
+/* Botão Excluir tudo */
+#btnExcluirTudo {
+    background-color: #e63946;
+}
+
+#btnExcluirTudo:hover {
+    background-color: #c72b36;
+}
+
+/* Barra de pesquisa */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #ffc8d2;
+    font-size: 1rem;
+}
+
+.search-box button {
+    background-color: #6c5ce7;
+}
+
+.search-box button:hover {
+    background-color: #5a4bd0;
+}
+
+/* Lista de usuários */
+#listaUsuarios {
+    list-style: none;
+    padding: 0;
+}
+
+#listaUsuarios li {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-size: 1rem;
+}
+
+/* Botões de excluir item */
+.btn-excluir {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #c72b36;
+}
+
+/* Linha divisória de cada card */
+#listaUsuarios hr {
+    border: 0;
+    border-top: 1px solid #ffd6dd;
+    margin-top: 12px;
+}

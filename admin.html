@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <title>VidaKids - Painel Administrativo</title>
+    </head>
+
+    <body class="pagina-principal">
+
+        <header class="principal">
+
+        <div class="logo">
+            <h1>🍼Vida<span>Kids</span></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="principal.html">Home</a></li>
+                <li><a href="vacinas.html">Vacinas</a></li>
+                <li><a href="primeiros-socorros.html">Primeiros Socorros</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="admin.html" class="ativo">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div id="principal"><!--Inicio do container administrativo-->
+
+        <div class="admin-container">
+
+            <h2><span class="material-symbols-outlined">admin_panel_settings</span> Painel Administrativo</h2>
+
+            
+            <div class="admin-form"><!--Inicio formulario-->
+                <input type="text" id="nome" placeholder="Nome do usuário">
+                <input type="email" id="email" placeholder="Email do usuário">
+            </div><!--Fim formulario-->
+
+            
+            <div class="admin-buttons"><!--Inicio dos Botoes-->
+                <button id="btnCadastrar">
+                    <span class="material-symbols-outlined">person_add</span>
+                    Cadastrar
+                </button>
+
+                <button id="btnLimparCampos">
+                    <span class="material-symbols-outlined">backspace</span>
+                    Limpar Campos
+                </button>
+
+                <button id="btnExcluirTudo">
+                    <span class="material-symbols-outlined">delete_forever</span>
+                    Excluir Todos
+                </button>
+            </div><!--Fim dos Botoes-->
+
+            
+            <div class="search-box"><!--Inicio pesquisa-->
+                <input type="text" id="pesquisa" placeholder="Pesquisar usuário...">
+                <button id="btnPesquisar">
+                    <span class="material-symbols-outlined">search</span>
+                    Buscar
+                </button>
+            </div><!--Fim pesquisa-->
+
+            <!-- Lista de Usuários -->
+            <ul id="listaUsuarios"></ul>
+        </div>
+    </div><!--Fim do container administrativo-->
+
+    
+    <footer><!--Inicio rodape-->
+        <p>© 2025 VidaKids - Painel Administrativo</p>
+        <p>
+            <a href="principal.html">Voltar ao site</a>
+        </p>
+    </footer><!--Fim rodape-->
+
+    <!-- Script -->
+    <script src="admin.js"></script>
+    </body>
+
+</html>
