@@ -81,7 +81,7 @@ O trabalho foi desenvolvido em **duas etapas**, conforme solicitado pela discipl
 
   * ✔ Lista de usuários cadastrados
   * ✔ Busca por nome ou e-mail
-  * ✔ Exclusão individual (corrigida para excluir o usuário correto)
+  * ✔ Exclusão individual 
   * ✔ Botão de limpar busca
 * Código organizado, bem comentado e humanizado
 
@@ -164,25 +164,10 @@ login.html
 | Nome                        | Função                               |
 | --------------------------- | ------------------------------------ |
 | **Claudinei Soares Junior** | Desenvolvedor Front-End & JavaScript |
+| **Giovanni Vaz** | Desenvolvedor Front-End & JavaScript |
 
 ---
 
-## 🎬 Vídeo de Apresentação
-
-O vídeo seguirá os requisitos:
-
-* Nome da equipe
-* Nome do projeto
-* Objetivo do serviço
-* Público-alvo
-* ODS trabalhada
-* Demonstração das páginas
-* Estrutura do código
-* Participação do integrante
-
-🔗 **Link do vídeo:** *(adicionar aqui quando disponível)*
-
----
 
 ## 💖 Créditos
 
